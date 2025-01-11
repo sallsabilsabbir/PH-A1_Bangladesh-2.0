@@ -10,6 +10,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+ul{
+    list-style: none;
+}
+.divForgap{
+    margin: 80px 0px 0px 0px;
+}
 
 
 .navbar {
@@ -43,6 +49,7 @@ body {
     border-radius: 5px;
     padding: 15px 35px;
     border: 1px solid #006A50;
+    cursor: pointer;
 }
 
 /* 1st section  */
@@ -74,6 +81,7 @@ body {
 .heroMainTitle{
     font-size: 56px;
 }
+
 .exploreNewBDbtn{
     background-color: #006A50;
     width: 274px;
@@ -83,11 +91,10 @@ body {
     border-radius: 5px;
     font-weight: bold;
     border: none;
+    cursor: pointer;
 }
+/* 1st section end */
 
-.divForgap{
-    margin: 80px 0px 0px 0px;
-}
 
 /* 2nd section */
 .s2mTitle{
@@ -97,12 +104,14 @@ body {
 .s2ContentsContainer{
     display: flex;
     justify-content: space-between;
-    gap: 64px;
+    gap: 24px;
     margin-top: 40px;
 }
 .s2contents{
     display: flex;
     flex-direction: column;
+    width: 302px;
+    height: 244px;
     gap: 24px;
     background-color: #FFFFFF;
     border: 1px solid rgb(14, 14, 14, 0.15);
@@ -127,16 +136,131 @@ body {
     font-size: 16px;
     color: rgb(14, 14, 14, 0.7);
 }
-
-
-
-
-
+/* 2nd section  end*/
 
 /* 3rd section */
+.s3mContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.s3ContentsContainer1{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.s3mTitle{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.s3mTitleTexts{
+    font-size: 16px;
+    color: rgb(14, 14, 14, 0.7);
+}
+.s3ContentsContainer2{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    
+}
+.s3contents1{
+    background-color: rgba(84, 144, 245, 0.2);
+    width: 410px;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: space-around;
+    padding: 32px;
+    border-radius: 16px;
+}.s3contents2{
+    background-color: rgba(9, 161, 92, 0.2);
+    width: 410px;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: space-around;
+    padding: 32px;
+    border-radius: 16px;
+}
+.s3contents3{
+    background-color: rgba(255, 194, 57, 0.2);
+    width: 410px;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: space-around;
+    padding: 32px;
+    border-radius: 16px;
+}
+.s3Bluebtn{
+    font-size: 16px;
+    font-weight: semibold;
+    text-align: center;
+    background-color: #5490F5;
+    width: 122px;
+    height: 41px;
+    color: white;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.s3Greenbtn{
+    font-size: 16px;
+    font-weight: semibold;
+    text-align: center;
+    background-color: #09A15C;
+    width: 122px;
+    height: 41px;
+    color: white;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.s3Orangebtn{
+    font-size: 16px;
+    font-weight: semibold;
+    text-align: center;
+    background-color: #FFC239;
+    width: 122px;
+    height: 41px;
+    color: white;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
 
+.s3Images{
+    width: 64px;
+    height: 64px;
+}
+.s3subContents{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.s3subTitle{
+    font-size: 20px;
+    font-weight: bold;
+}
+.s3ContentTexts{
+    font-size: 16px;
+    color: rgb(14, 14, 14, 0.7);
+}
+
+/* 3rd section end */
 
 /* 4th section */
+
+
+
+/* 4th section end */
 
 
 /* 5th section */

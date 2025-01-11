@@ -3,6 +3,156 @@
     font-family: "Open Sans", serif;
     font-optical-sizing: auto;
     font-style: normal;
-    font-variation-settings:"wdth" 100;
+    font-variation-settings: "wdth" 100;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    margin: 24px 160px;
+    font-family: "Fira Sans";
+}
+
+.navbar{
+    padding: 24px 0px;
+}
+
+/* header Section */
+.navlogo {
+    font-weight: bolder;
+}
+
+.navbtn {
+    list-style: none;
+}
+
+.btn-primary {
+    font-weight: bold;
+    color: #006A50;
+    border-radius: 5px;
+    padding: 15px 35px;
+    border: 1px solid #006A50;
+}
+
+/* 1st section  */
+.heroSize{
+    background-color: #C6E4D6;
+    padding: 100px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+    border-radius: 24px;
+}
+.heroTexts{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.heroImage{
+    width: 474px;
+    height: 400px;
+}
+.heroTitle{
+    font-size: 24px;
+    font-weight: medium;
+    color: #0E0E0E;
+    opacity: 0.5;
+    
+}
+.heroMainTitle{
+    font-size: 56px;
+}
+.exploreNewBDbtn{
+    background-color: #006A50;
+    width: 274px;
+    height: 56px;
+    color: white;
+    padding: 17px 34px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+}
+
+.divForgap{
+    margin: 80px 0px 0px 0px;
+}
+
+/* 2nd section */
+.s2mTitle{
+    font-size: 40px;
+    font-weight: bold;
+}
+.s2ContentsContainer{
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+    margin-top: 40px;
+}
+.s2contents{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 24px;
+    
+}
+.s2Images{
+    width: 62px;
+    height: 62px;
+}
+.s2subContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.s2subTitle{
+    font-size: 20px;
+    font-weight: bold;
+}
+.s2ContentTexts{
+    font-size: 16px;
+    color: rgb(14, 14, 14, 0.7);
+}
+
+
+
+
+
+
+/* 3rd section */
+
+
+/* 4th section */
+
+
+/* 5th section */
+
+
+/* 6th section */
+
+
+/* 7th section */
+
+
+
+
+/* 8th section */
+
+
+
+
+/* 9th section */

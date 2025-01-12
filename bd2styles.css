@@ -325,7 +325,7 @@ body {
 }
 
 .s4mContainerContents {
-    background-image: url("../assets/quote-bg.png");
+    background-image: url("quotebg.png");
     background-repeat: no-repeat;
     background-position: top left;
     padding: 24px 0px;
